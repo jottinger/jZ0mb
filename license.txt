@@ -1,0 +1,11 @@
+Your allowed to:
+(1) Make Copys of this program and mirror them
+(2) Modify the Code
+(3) Republish your modified versions
+(4) If you copy any part of this work / republish it you there must be a file
+that says that I(Spycrab0) am the author of this project , this file must
+be placed at the root of the program and named: "readme.txt" or "author.txt"
+Your not allowed to:
+(1) Claim it as your own
+(2) Using it for any direct or indirect commerical purpose
+Happy Modding!
