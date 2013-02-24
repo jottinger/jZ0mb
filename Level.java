@@ -7,7 +7,7 @@ public String[] layer_3_mat = new String[925];
 public Level(String filepath) {
 int n = 32;
 for (int i = 0;i < 925;i++) {
-layer_1_mat[i] = "img/grass.png";
+layer_1_mat[i] = "img\\grass.png";
 }
 f = new File(filepath);
 if (f.exists() && f.canRead()) {
