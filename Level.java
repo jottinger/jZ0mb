@@ -2,7 +2,10 @@ import java.io.*;
 public class Level {
 public File f;
 public String[] layer_1_mat = new String[925];
+public String[] layer_2_mat = new String[925];
+public String[] layer_3_mat = new String[925];
 public Level(String filepath) {
+int n = 32;
 for (int i = 0;i < 925;i++) {
 layer_1_mat[i] = "img/grass.png";
 }
@@ -19,7 +22,57 @@ int block = Integer.valueOf(s.split(";")[0].split(",")[2]);
 String mat = s.split(";")[1];
 if (mat.equalsIgnoreCase("grass")) {
    if (layer == 1) {
-   layer_1_mat[layer * 25 + block] = "img/grass.png";
+   layer_1_mat[line * n + block] = "img/grass.png";
+   }
+    if (layer == 2) {
+   layer_2_mat[line * n + block] = "img/grass.png";
+   }
+    if (layer == 3) {
+   layer_3_mat[line * n + block] = "img/grass.png";
+   }
+}
+if (mat.equalsIgnoreCase("water")) {
+   if (layer == 1) {
+   layer_1_mat[line * n + block] = "img/water.png";
+   }
+    if (layer == 2) {
+   layer_2_mat[line * n + block] = "img/water.png";
+   }
+    if (layer == 3) {
+   layer_3_mat[line * n + block] = "img/water.png";
+   }
+}
+if (mat.equalsIgnoreCase("asphalt")) {
+   if (layer == 1) {
+   layer_1_mat[line * n + block] = "img/asphalt.png";
+   }
+    if (layer == 2) {
+   layer_2_mat[line * n + block] = "img/asphalt.png";
+   }
+    if (layer == 3) {
+   layer_3_mat[line * n + block] = "img/asphalt.png";
+   }
+}
+if (mat.equalsIgnoreCase("asphalt_broken")) {
+   if (layer == 1) {
+   layer_1_mat[line * n + block] = "img/asphalt_broken.png";
+   }
+    if (layer == 2) {
+   layer_2_mat[line * n + block] = "img/asphalt_broken.png";
+   }
+    if (layer == 3) {
+   layer_3_mat[line * n + block] = "img/asphalt_broken.png";
+   }
+}
+if (mat.equalsIgnoreCase("plate")) {
+   if (layer == 1) {
+   layer_1_mat[line * n + block] = "img/plate.png";
+   }
+    if (layer == 2) {
+   layer_2_mat[line * n + block] = "img/plate.png";
+   }
+    if (layer == 3) {
+   layer_3_mat[line * n + block] = "img/plate.png";
    }
 }
 }
