@@ -53,7 +53,8 @@ if (evt.getActionCommand().equals("play")) {
 System.out.println("Initalising GameFrame...");
 JFrame frame = new JFrame();
 frame.add(new GamePanel());
-frame.setSize(1200,600);
+frame.setSize(1190,605);
+frame.setTitle("jZ0mb - Alpha v1");
 frame.setVisible(true);
 frame.setResizable(false);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
