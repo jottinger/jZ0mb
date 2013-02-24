@@ -5,7 +5,13 @@ Your allowed to:
 (4) If you copy any part of this work / republish it you there must be a file
 that says that I(Spycrab0) am the author of this project , this file must
 be placed at the root of the program and named: "readme.txt" or "author.txt"
+(5) You must ship this file with your program
 Your not allowed to:
 (1) Claim it as your own
 (2) Using it for any direct or indirect commerical purpose
-Happy Modding!
+(3) Remove the header at the beginning without permission from the author(me)
+Your duties:
+(1) If you copy any part of this work / republish it you there must be a file
+that says that I(Spycrab0) am the author of this project , this file must
+be placed at the root of the program and named: "readme.txt" or "author.txt"
+(2) You must ship this file with your program
